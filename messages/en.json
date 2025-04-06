@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "sidebar": {
+      "account-settings": "Account settings",
+      "application": "Application",
+      "finances": "finances",
+      "home": "Home",
+      "members": "Members",
+      "sign-out": "Sign out",
+      "username": "Username"
+    }
+  }
+}

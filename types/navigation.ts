@@ -5,5 +5,6 @@ export interface SidebarItem {
   to: Url;
   collapsible: boolean;
   name: string;
+  translationKey: string,
   icon: LucideIcon;
 }

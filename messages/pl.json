@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "sidebar": {
+      "account-settings": "Ustawienia konta",
+      "application": "Aplikacja",
+      "finances": "Finanse",
+      "home": "Glowna",
+      "members": "Czlonkowie",
+      "sign-out": "Wyloguj",
+      "username": "Nazwa uzytkownika"
+    }
+  }
+}
