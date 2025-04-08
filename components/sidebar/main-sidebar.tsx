@@ -21,7 +21,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 const menuItems: Array<SidebarItem> = [
   {
@@ -47,8 +47,8 @@ const menuItems: Array<SidebarItem> = [
   },
 ];
 
-const MainSidebar = () => {
-  const navigationT = useTranslations("navigation.sidebar");
+const MainSidebar = async () => {
+  const navigationT = await getTranslations("navigation.sidebar");
 
   return (
     <Sidebar>

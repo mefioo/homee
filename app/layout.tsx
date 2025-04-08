@@ -39,7 +39,7 @@ export default async function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <SidebarProvider>
               <MainSidebar />
-              <main>{children}</main>
+              <main className="w-full p-20">{children}</main>
             </SidebarProvider>
           </ThemeProvider>
         </NextIntlClientProvider>

@@ -9,5 +9,15 @@
       "sign-out": "Wyloguj",
       "username": "Nazwa uzytkownika"
     }
+  },
+  "expenses": {
+    "table": {
+      "title": "Lista Twoich aktualnych wydatkow.",
+      "id": "Id",
+      "name": "Nazwa",
+      "category": "Kategoria",
+      "amount": "Wartosc",
+      "total": "Suma"
+    }
   }
 }
